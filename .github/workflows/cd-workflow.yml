@@ -26,7 +26,7 @@ jobs:
         username: ${{github.actor}}
         password: ${{secrets.GITHUB_TOKEN}}
         registry: docker.pkg.github.com
-        repository: sdub18/github-actions-for-packages/tic-tac-toe
+        repository: Eve000017/github-actions-for-packages/tic-tac-toe
         tag_with_sha: true
         
   build:
